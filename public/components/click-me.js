@@ -12,6 +12,5 @@ Vue.component('click-me', {
       console.log("😜🐼")
       bus.$emit('message', 42)
     }
-
   }
 });

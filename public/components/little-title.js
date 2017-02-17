@@ -7,7 +7,7 @@ Vue.component('little-title', {
       title: 'Hi peeps 🐹'
     }
   },
-  mounted: function () {
+  mounted: function() {
     console.log("little-title created")
     bus.$on('message', (data) => {
       console.log("🍄", data)

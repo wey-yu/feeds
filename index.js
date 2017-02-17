@@ -109,7 +109,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(express.static('public'));
 
 app.get('/hello', (req, res) => {
-  res.send({message:"I 💙 🐼", remark:"hello 🌍"});
+  res.send({message:"I ❤️ 🐼 and 🤖", remark:"hello 🌍"});
 })
 
 app.listen(port)
