@@ -1,1 +1,52 @@
-<h1>🐼</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="author" content="@k33g_org" />
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+
+  <title>Feeds</title>
+
+  <link rel="stylesheet" href="/Semantic-UI-CSS/semantic.min.css" />
+
+</head>
+<body>
+  <!-- HEADER -->
+
+  <!-- CONTENT -->
+  <div id="mainapp" class="ui container">
+    <my-title></my-title>
+    <little-title></little-title>
+    <click-me></click-me>
+
+  </div>
+  <script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="/Semantic-UI-CSS/semantic.min.js"></script>
+  <script type="text/javascript" src="/js/vue.js"></script>
+
+
+  <script>
+
+    window.bus = new Vue({})
+
+  </script>
+
+  <!-- COMPONENTS -->
+  <script type="text/javascript" src="/components/my-title.js"></script>
+  <script type="text/javascript" src="/components/little-title.js"></script>
+  <script type="text/javascript" src="/components/click-me.js"></script>
+
+
+  <script>
+
+    new Vue({el: '#mainapp'})
+
+  </script>
+
+</body>
+</html>
