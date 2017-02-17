@@ -11,7 +11,7 @@ Vue.component('little-title', {
     console.log("little-title created")
     bus.$on('message', (data) => {
       console.log("🍄", data)
-      this.title = "Hello guys 🦁"
+      this.title = "Hello guys 🦁 ..."
     })
   },
   methods: {
